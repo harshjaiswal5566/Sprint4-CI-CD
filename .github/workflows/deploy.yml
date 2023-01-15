@@ -9,7 +9,7 @@ on:
         type: string    
 
 env:
-  BUCKET: harsh-S3
+  BUCKET:teststorage1983
   TFSTATE_FILE: S3.tfstate
   aws_region: ${{ github.event.inputs.region }}
 
